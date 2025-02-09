@@ -1,0 +1,24 @@
+title: p5js Sample Sketch for Github Pages
+email: author@yourmail.com
+description: >-
+    Sample project to show how to deploy a p5js app to Github Pages
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
+    - .gitignore
+    - .git
+    - .nvm
+    - docker-compose.yml
+    - LICENSE
+    - README.md
