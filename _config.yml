@@ -2,7 +2,7 @@ title: p5js Sample Sketch for Github Pages
 email: author@yourmail.com
 description: >-
     Sample project to show how to deploy a p5js app to Github Pages
-baseurl: ""
+baseurl: "/p5jspages"
 
 # Build settings
 markdown: kramdown
