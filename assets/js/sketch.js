@@ -2,6 +2,10 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
 }
 
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
     //when mouse button is pressed, circles turn black
     if (mouseIsPressed === true) {
