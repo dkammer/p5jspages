@@ -95,7 +95,7 @@ function draw() {
     }
 
     //white circles drawn at palm position
-    if (palmX + palmY > 0) circle(palmX, palmY, 100);
+    if (palmX + palmY > 0) circle(width - palmX, palmY, 100);
 
     if (activeGesture === 'Pointing_Up') {
         clear();
